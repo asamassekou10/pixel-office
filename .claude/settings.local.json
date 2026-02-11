@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build:*)",
+      "Bash(ls -la \"c:\\\\Users\\\\alhas\\\\Projects\\\\pixel-office\\\\packages\\\\client\\\\src\"\" 2>nul || echo \"Path check \")",
+      "Bash(powershell:*)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "WebFetch(domain:github.com)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Pixel Office - AI agent visualization platform\n\nThree.js-based 2D pixel-art office with cyberpunk aesthetic.\nIncludes server \\(Express + Socket.io\\), client \\(Vite + Three.js\\),\nREST API for agent management, and web-based control panel.\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
