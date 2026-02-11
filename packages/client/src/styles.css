@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: #0a0a0f; }
+#three-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; }
+#css2d-layer { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+#ui-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+#ui-overlay > * { pointer-events: auto; }
+.hidden { display: none !important; }
+
+/* Scrollbar styling for detail panel */
+#agent-detail-panel::-webkit-scrollbar { width: 4px; }
+#agent-detail-panel::-webkit-scrollbar-track { background: #0a0a0f; }
+#agent-detail-panel::-webkit-scrollbar-thumb { background: #233554; border-radius: 2px; }
+#agent-detail-panel::-webkit-scrollbar-thumb:hover { background: #00d9ff; }
+
+/* Scrollbar styling for control panel */
+#control-panel ::-webkit-scrollbar { width: 4px; }
+#control-panel ::-webkit-scrollbar-track { background: #0a0a0f; }
+#control-panel ::-webkit-scrollbar-thumb { background: #233554; border-radius: 2px; }
+#control-panel ::-webkit-scrollbar-thumb:hover { background: #00d9ff; }
